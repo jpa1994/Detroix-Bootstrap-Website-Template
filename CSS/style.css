@@ -101,17 +101,35 @@ header a {
 
     .btnBtm1 {
     position: relative;
-    top: 4%;
+    top: -8px;
     }
 
     .btnBtm2 {
     position: relative;
-    top: 6%;
+    top: 15px;
     }
 
     .btnBtm3 {
     position: relative;
-    top: 6%;
+    top: 15px;
+    }
+}
+
+@media  screen and (min-width:1440px) {
+
+    .btnBtm1 {
+    position: relative;
+    top: -2px;
+    }
+
+    .btnBtm2 {
+    position: relative;
+    top: -3px;
+    }
+
+    .btnBtm3 {
+    position: relative;
+    top: -2px;
     }
 }
 
@@ -215,6 +233,60 @@ header a {
 
 .btmSection .pGray {
     color: #a9a9a9;
+}
+
+@media screen and (min-width:768px) {
+   
+    .btnBtm4 {
+        position: relative;
+        top: 30px;
+    }
+
+    .btnBtm5 {
+        position: relative;
+        bottom: 27px;
+    }
+
+    .btnBtm6 {
+        position: relative;
+        top: 107px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+   
+    .btnBtm4 {
+        position: relative;
+        top: -28px;
+    }
+
+    .btnBtm5 {
+        position: relative;
+        bottom: -77px;
+    }
+
+    .btnBtm6 {
+        position: relative;
+        top: 96px;
+    }
+}
+
+@media screen and (min-width:1440px) {
+   
+    .btnBtm4 {
+        position: relative;
+        top: -27px;
+    }
+
+    .btnBtm5 {
+        position: relative;
+        bottom: -29px;
+    }
+
+    .btnBtm6 {
+        position: relative;
+        top: 50px;
+    }
 }
 
 /* FOOTER */
